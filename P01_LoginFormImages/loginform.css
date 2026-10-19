@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  background-color: #927057;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+main {
+  width: 470px;
+  margin: 50px auto 0;
+  padding: 50px 60px 70px 60px;
+  background: #d5c395;
+  text-align: center;
+}
+
+.login-box {
+  width: 300px;
+  margin: 50px auto;        
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background-color: #d5c395;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #927057;
+  color: #927057;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #7a5a46;
+}
